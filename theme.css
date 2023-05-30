@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.up__nav{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.search_p{
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.header__logo {
+  display: block;
+  margin: 2rem 10rem 0;
+
+}
+
+.header__list {
+  list-style: none;
+  display: flex;
+  margin-left: 10rem;
+}
+
+.header__item {
+  margin-left: 2rem;
+}
